@@ -1,0 +1,1 @@
+rg '^.*src="(.*?)".*$' -o  -g '*.html' -r '$1' > resources.txt

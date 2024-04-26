@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html, body, #mapDiv {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mapDiv"></div>
+      
+    <script nonce="vA18rSlOcypECBP5XAg7PA">
+      function onEmbedLoad() {
+        initEmbed([null,null,null,null,null,[[[2,"spotlit",null,null,null,null,null,[null,null,null,null,null,null,null,null,null,null,11,null,[null,null,null,null,null,null,null,null,null,null,null,null,null,1]]]],null,null,[[null,null,null,null,null,null,null,null,null,null,null,null,null,[[["2412902992430352683","4090390089242159683",[]],"/g/12xqs4wsp",null,[4092816360,575199043],null,null,null,1,null,null,null,null,null,null,"gcid:route"],0,null,null,null,0,null,0]]]],null,["en_US"],[null,null,null,"/maps/api/js/ApplicationService.GetEntityDetails","/maps/embed/upgrade204",null,"/maps/embed/record204"],null,null,null,null,null,null,null,null,"VtIrZt2zIvSlkdUPy9-dwAQ",null,null,null,[[[3744.053490188707,57.51990430000001,-20.2150936],[0,0,0],null,13.10000038146973],17,0,[["0x217c5a7ccd49c92b:0x38c3fc1d460eaa43","Bois Cheri Rd, St Pierre",[-20.2150936,57.5199043]],"Bois Cheri Rd",["St Pierre"],null,null,null,null,null,null,null,null,null,null,"St Pierre",null,null,null,null,null,null,null,null,null,1,1,null,null,"Ii4qLAoUChIJK8lJzXxafCERQ6oORh38wzgSFAoSCbliKxoOWnwhEYU3QNogi0mk",null,null,"0ahUKEwjdtoXSouCFAxX0UqQEHctvB0gQ8BcIAygA"]],null,null,null,0,null,null,null,null,null,null,[1]]);
+      }
+      function onApiLoad() {
+        var embed = document.createElement('script');
+        embed.src = "https://maps.gstatic.com/maps-api-v3/embed/js/56/10/init_embed.js";
+        document.body.appendChild(embed);
+      }
+    </script>
+    <link rel="preload" href="https://maps.gstatic.com/maps-api-v3/embed/js/56/10/init_embed.js" nonce="vA18rSlOcypECBP5XAg7PA" as="script" />
+    <script src="https://maps.googleapis.com/maps/api/js?client=google-maps-embed&amp;paint_origin=&amp;libraries=geometry,search&amp;v=weekly&amp;loading=async&amp;language=en_US&amp;callback=onApiLoad" nonce="vA18rSlOcypECBP5XAg7PA" async defer></script>
+  </body>
+</html>
